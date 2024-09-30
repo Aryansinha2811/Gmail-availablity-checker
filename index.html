@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gmail Availablity Check</title>
+</head>
+<body>
+
+    <!-- This is the Information Ticker  -->
+    <div class="info-ticker">
+        <div class="info-items" id="infoItems">
+            <h3>This Website only checks Google mail [ G-mail ] with a 100% accuracy ! Feel free to check a ID that has not been taken by someone else yet ! </h3>
+        </div>
+    </div>
+
+    <div class="gmail">
+        <span class="key" id="red">G</span>
+        <span class="key">-</span>
+        <span class="key">M</span>
+        <span class="key">A</span>
+        <span class="key">I</span>
+        <span class="key">L</span>
+    </div>
+
+    <div>
+        <h3 class="text">Enter a G-mail to check it's availablity !</h3>
+        <form action="#" class="mail">
+            <input type="text" id="mail" required>
+        </form>
+    </div>
+    <div id="submit">
+        <button  onclick="checkGmail()">Check this G-mail</button>
+    </div>
+
+    <!-- Placeholder for the result message -->
+    <div id="resultMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
